@@ -1,16 +1,16 @@
 {
-    "pageTitle": "analytics",
+    "pageTitle": "Análises",
     "breadcrumb": [
         { "path": "/", "text": "home" },
         { "text": "dashboard" },
-        { "text": "analytics" }
+        { "text": "Análises" }
     ],
     "dotsMenu": {
         "dots": "more_horiz",
         "dropdown": [
-            { "icon": "edit", "text": "edit" },
-            { "icon": "delete", "text": "delete" },
-            { "icon": "download", "text": "download" }
+            { "icon": "edit", "text": "editar" },
+            { "icon": "delete", "text": "Eliminar" },
+            { "icon": "download", "text": "Baixar" }
         ]
     },
     "mixed": [
@@ -64,14 +64,14 @@
         },
         {
             "digit": "141,253K", 
-            "label": "conversions",
+            "label": "Conversões",
             "more": {
                 "icon": "more_vert",
                 "menu": [
-                    { "icon": "history", "text": "last day" },
-                    { "icon": "history", "text": "last week" },
-                    { "icon": "history", "text": "last month" },
-                    { "icon": "history", "text": "last year" }
+                    { "icon": "history", "text": "recentes" },
+                    { "icon": "history", "text": "semana passada" },
+                    { "icon": "history", "text": "Mês passado" },
+                    { "icon": "history", "text": "ano passado" }
                 ]
             },
             "variant": { "name": "blue", "color": "#96cefa" },
@@ -141,6 +141,7 @@
                 { "icon": "history", "text": "last year" }
             ]
         },
+        
         "items": [
             {
                 "src": "images/flag/bangladesh.webp",

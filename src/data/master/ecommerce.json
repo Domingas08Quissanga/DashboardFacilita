@@ -7,12 +7,12 @@
     "heros": [
         {
             "variant": "green",
-            "title": "total users",
+            "title": "total de usuários",
             "number": "277",
             "icon": "account_circle",
             "trend": "trending_up",
             "percent": "+ 95%",
-            "compare": "last month",
+            "compare": "mês passado",
             "dotsMenu": {
                 "dots": "more_vert",
                 "dropdown": [
