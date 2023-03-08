@@ -89,12 +89,10 @@
         @include text-font(10px, 600);
         text-transform: uppercase;
         color: var(--lightColor);
-
         &.square {
             padding: 0px 5px 1px;
             border-radius: 4px;
         }
-
         &.round {
             border-radius: 15px;
             padding: 0px 4px 1px;
