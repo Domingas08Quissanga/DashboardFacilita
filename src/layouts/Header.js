@@ -59,12 +59,6 @@ export default function Header() {
                         onClick={ toggleTheme }
                         className={`mc-header-icon ${ data.theme.addClass }`}
                     />
-                    <LanguageDropdown  
-                        icon={ data.language.icon }
-                        title={ data.language.title }
-                        addClass={ data.language.addClass }
-                        dropdown={ data.language.dropdown }
-                    />
                     <WidgetDropdown 
                         icon={ data.cart.icon }
                         title={ data.cart.title }
@@ -79,13 +73,7 @@ export default function Header() {
                         addClass={ data.message.addClass }
                         dropdown={ data.message.dropdown }
                     />
-                    <WidgetDropdown 
-                        icon={ data.notify.icon }
-                        title={ data.notify.title }
-                        badge={ data.notify.badge }
-                        addClass={ data.notify.addClass }
-                        dropdown={ data.notify.dropdown }
-                    />
+                
                     <ProfileDropdown 
                         name={ data.profile.name }
                         image={ data.profile.image }

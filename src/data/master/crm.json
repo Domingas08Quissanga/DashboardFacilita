@@ -9,8 +9,8 @@
     },
     "crms": [
         {
-            "content": { "icon": "summarize", "value": "6790", "label": "campaign sent" },
-            "status": { "icon": "arrow_upward", "value": "45%", "label": "Since last week" },
+            "content": { "icon": "summarize", "value": "6790", "label": "campanha enviada" },
+            "status": { "icon": "seta para cima", "value": "45%", "label": "Desde a semana passada" },
             "variant": { "name": "blue", "deep": "#4094f1", "light": "#64b3f6" },
             "dataKey": { "label": "weeks", "title": "campaign" },
             "dataSet": [
@@ -25,8 +25,8 @@
 
         },
         {
-            "content": { "icon": "thumb_up", "value": "5397", "label": "leads generate" },
-            "status": { "icon": "arrow_upward", "value": "35%", "label": "Since last week" },
+            "content": { "icon": "thumb_up", "value": "5397", "label": "Pistas gerados" },
+            "status": { "icon": "seta para cima", "value": "35%", "label": "Desde a semana passada" },
             "variant": { "name": "orange", "deep": "#ff8c0a", "light": "#ffa732" },
             "dataKey": { "label": "weeks", "title": "leads" },
             "dataSet": [
@@ -41,8 +41,8 @@
 
         },
         {
-            "content": { "icon": "forum", "value": "4278", "label": "deals customer" },
-            "status": { "icon": "arrow_downward", "value": "25%", "label": "Since last week" },
+            "content": { "icon": "forum", "value": "4278", "label": "negocio com o cliente" },
+            "status": { "icon": "seta para cima ", "value": "25%", "label": "Since last week" },
             "variant": { "name": "green", "deep": "#27bf68", "light": "#4eda89" },
             "dataKey": { "label": "weeks", "title": "deals" },
             "dataSet": [
@@ -58,7 +58,7 @@
         },
         {
             "content": { "icon": "shopping_cart", "value": "3594", "label": "revenue booked" },
-            "status": { "icon": "arrow_upward", "value": "15%", "label": "Since last week" },
+            "status": { "icon": "seta para cima", "value": "15%", "label": "Desde a semana passada" },
             "variant": { "name": "purple", "deep": "#de2fff", "light": "#ed68ff" },
             "dataKey": { "label": "weeks", "title": "revenue" },
             "dataSet": [
@@ -90,7 +90,7 @@
                 { "label": "brand by", "type": "date" },
                 { "label": "search by", "type": "search", "placeholder": "id / name / email" }
             ],
-            "thead": ["representer", "email", "amount", "status", "issue date", "action"],
+            "thead": ["representante", "email", "quantia", "status", "data de emissão", "ação"],
             "tbody": [
                 {
                     "src": "images/avatar/01.webp",

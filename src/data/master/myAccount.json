@@ -1,31 +1,31 @@
 {
-    "pageTitle": "my account",
+    "pageTitle": "minha conta",
     "breadcrumb": [
         { "path": "/", "text": "home" },
         { "path": "/user-list", "text": "user-list" },
-        { "text": "my-account" }
+        { "text": "minha conta" }
     ],
-    "id": { "title": "unique id", "value": "#783404edft97e3445" },
-    "name": { "title": "fullname", "value": "Miron Mahmud" },
-    "username": { "title": "username", "value": "@mironcoder" },
+    "id": { "title": "ID único", "value": "#783404edft97e3445" },
+    "name": { "title": "nome completo", "value": "Bernabe David Shikudule" },
+    "username": { "title": "username", "value": "Bernabe David" },
     "role": { "title": "role", "activeOption": "member", "option": ["member", "admin", "vendor", "founder"] },
     "status": { "title": "status", "activeOption": "approved", "option": ["approved", "pending", "blocked"] },
-    "bio": { "title": "biography", "longText": "I consider myself as a creative, professional and a flexible person. I can adapt with any kind of brief and design style" },
-    "email": { "title": "email", "value": "demo@example.com" },
-    "phone": { "title": "phone", "value": "+8801838288389" },
-    "website": { "title": "website", "value": "https://mironmahmud.com/" },
-    "create": { "title": "create", "value": "15/06/2022 14:02" },
-    "address": { "title": "address", "longText": "3379  Monroe Avenue, Fort Myers, Florida(33912)" },
+    "bio": { "title": "biografia", "longText": "" },
+    "email": { "title": "e-mail", "value": "bernabedavid12@gmail.com" },
+    "phone": { "title": "telefone", "value": "+244 949814020" },
+    "website": { "title": "Data", "value": "14-03-2023" },
+    "create": { "title": "criado", "value": "15/03/2023 14:02" },
+    "address": { "title": "endereço", "longText": "3379  Monroe Avenue, Fort Myers, Florida(33912)" },
     "social": [
-        { "type": "url", "title": "facebook", "value": "https://example.com/" },
-        { "type": "url", "title": "twitter", "value": "https://example.com/" },
-        { "type": "url", "title": "linkedin", "value": "https://example.com/" },
-        { "type": "url", "title": "instagram", "value": "https://example.com/" },
-        { "type": "url", "title": "youtube", "value": "https://example.com/" },
-        { "type": "url", "title": "pinterest", "value": "https://example.com/" }
+        { "type": "url", "title": "facebook", "value": "https://facebook.com/" },
+        { "type": "url", "title": "twitter", "value": "https://twitter.com/" },
+        { "type": "url", "title": "linkedin", "value": "https://linkedin.com/" },
+        { "type": "url", "title": "instagram", "value": "https://inatagram.com/" },
+        { "type": "url", "title": "youtube", "value": "https://youtube.com/" },
+        { "type": "url", "title": "pinterest", "value": "https://pintrest.com/" }
     ],
     "avatar": {
-        "src": "images/avatar/01.webp",
+        "src": "images/avatar/09.jpg",
         "alt": "avatar"
     }
 }

@@ -1,9 +1,9 @@
 {
-    "pageTitle": "user list",
+    "pageTitle": "Lista de usuários",
     "breadcrumb": [
         { "path": "/", "text": "home" },
-        { "text": "users" },
-        { "text": "all-user" }
+        { "text": "usuários" },
+        { "text": "todo usuário" }
     ],
     "cardTitle": "registered users",
     "dotsMenu": {
@@ -15,85 +15,54 @@
         ]
     },
     "float": [
-        { "title": "pending users", "digit": "547", "icon": "pending", "variant": "lg purple" }, 
-        { "title": "approved users", "digit": "605", "icon": "check_circle", "variant": "lg green" },
-        { "title": "blocked users", "digit": "249", "icon": "remove_circle", "variant": "lg red" }
+        { "title": "usuários pendentes", "digit": "547", "icon": "pending", "variant": "lg purple" }, 
+        { "title": "usuários aprovados", "digit": "605", "icon": "check_circle", "variant": "lg green" },
+        { "title": "usuários bloqueados", "digit": "249", "icon": "remove_circle", "variant": "lg red" }
     ],
     "filter":[
-        { "label": "show by", "option": ["12 row", "24 row", "36 row"] },
-        { "label": "role by", "option": ["admin", "member", "client", "manager", "vendor"] },
-        { "label": "status by", "option": ["approved", "pending", "blocked"] },
-        { "label": "search by", "type": "search", "placeholder": "id / name / email / number" }
+        { "label": "mostrar por", "option": ["12 row", "24 row", "36 row"] },
+        { "label": "papel por", "option": ["admin", "member", "client", "manager", "vendor"] },
+        { "label": "estado por", "option": ["approved", "pending", "blocked"] },
+        { "label": "procurar por", "type": "search", "placeholder": "id / name / email / number" }
     ],
     "table":{
-        "thead": ["name", "role", "email", "password", "phone", "status", "created", "action"],
+        "thead": ["nome", "função", "email", "senha", "telefone", "status", "criado", "ação"],
         "tbody": [
             {
-                "role": { "icon": "person", "text": "member" },
-                "src": "images/avatar/01.webp",
-                "name": "mahmudul hasan", 
-                "email": "miron@gmail.com", 
+                "role": { "icon": "person", "text": "admin" },
+                "src": "images/avatar/09.jpg",
+                "name": "Bernabe David", 
+                "email": "bernabedavid12@gmail.com", 
                 "password": "$2a$06$4Uoeanolkkpo8gBDNIYt6eid0Qm8cCwsYU5VwaQcBsB6KISR1kwf2",
-                "phone": "o1838288389", 
+                "phone": "949814020", 
                 "status": "approved",
-                "created": "15/06/2022 14:02",
+                "created": "15/06/2023 14:02",
                 "action": { "edit": "edit", "block": "block", "view": "visibility" }
             },
             {  
-                "role": { "icon": "settings", "text": "admin" },
-                "src": "images/avatar/02.webp",
-                "name": "labonno khan", 
-                "email": "labonno@gmail.com", 
+                "role": { "icon": "settings", "text": "client" },
+                "src": "images/avatar/08.jpg",
+                "name": "Josana Silva", 
+                "email": "josanasilva@gmail.com", 
                 "password": "$2a$06$4Uoeanolkkpo8gBDNIYt6eid0Qm8cCwsYU5VwaQcBsB6KISR1kwf2",
-                "phone": "o1838288389", 
+                "phone": "999999999", 
                 "status": "pending",
-                "created": "15/06/2022 14:02",
+                "created": "15/06/2023 14:02",
                 "action": { "edit": "edit", "block": "block", "view": "visibility" }
-            },
-            { 
-                "role": { "icon": "person", "text": "member" },
-                "src": "images/avatar/03.webp",
-                "name": "tahmina bonny", 
-                "email": "tahmina@gmail.com", 
-                "password": "$2a$06$4Uoeanolkkpo8gBDNIYt6eid0Qm8cCwsYU5VwaQcBsB6KISR1kwf2",
-                "phone": "o1838288389", 
-                "status": "blocked",
-                "created": "15/06/2022 14:02",
-                "action": { "edit": "edit", "block": "block", "view": "visibility" }
-            },
-            { 
-                "role": { "icon": "store", "text": "vendor" },
-                "src": "images/avatar/04.webp",
-                "name": "shariful khandakar", 
-                "email": "shariful@gmail.com", 
-                "password": "$2a$06$4Uoeanolkkpo8gBDNIYt6eid0Qm8cCwsYU5VwaQcBsB6KISR1kwf2",
-                "phone": "o1838288389", 
-                "status": "approved",
-                "created": "15/06/2022 14:02",
-                "action": { "edit": "edit", "block": "block", "view": "visibility" }
-            },
-            { 
+            },  
+             {  
                 "role": { "icon": "settings", "text": "admin" },
-                "src": "images/avatar/05.webp",
-                "name": "farzana dolon", 
-                "email": "farzana@gmail.com", 
+                "src": "",
+                "name": "Domingas Quissanga", 
+                "email": "domingas Quissanga@gmail.com", 
                 "password": "$2a$06$4Uoeanolkkpo8gBDNIYt6eid0Qm8cCwsYU5VwaQcBsB6KISR1kwf2",
-                "phone": "o1838288389", 
+                "phone": "888888888", 
                 "status": "pending",
-                "created": "15/06/2022 14:02",
-                "action": { "edit": "edit", "block": "block", "view": "visibility" }
-            },
-            { 
-                "role": { "icon": "school", "text": "founder" },
-                "src": "images/avatar/06.webp",
-                "name": "saikul azam", 
-                "email": "saikul@gmail.com", 
-                "password": "$2a$06$4Uoeanolkkpo8gBDNIYt6eid0Qm8cCwsYU5VwaQcBsB6KISR1kwf2",
-                "phone": "o1838288389", 
-                "status": "blocked",
                 "created": "15/06/2022 14:02",
                 "action": { "edit": "edit", "block": "block", "view": "visibility" }
             }
+           
+           
         ]
     },
     "role": ["founder", "admin", "member", "client", "vendor"],

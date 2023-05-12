@@ -1,8 +1,8 @@
 {
-    "pageTitle": "dashborad",
+    "pageTitle": "painel de controle",
     "breadcrumb": [
-        { "path": "/", "text": "home" },
-        { "text": "dashboard" }
+        { "path": "/", "text": "inicio" },
+        { "text": "painel de controle" }
     ],
     "heros": [
         {
@@ -25,7 +25,7 @@
         },
         {
             "variant": "purple",
-            "title": "total orders",
+            "title": "total  de pedidos",
             "number": "338",
             "icon": "shopping_cart",
             "trend": "trending_down",
@@ -43,7 +43,7 @@
         },
         {
             "variant": "blue",
-            "title": "total products",
+            "title": "total de produtos",
             "number": "557",
             "icon": "shopping_bag",
             "trend": "trending_down",
@@ -58,28 +58,10 @@
                     { "icon": "history", "text": "last year" }
                 ]
             }
-        },
-        {
-            "variant": "yellow",
-            "title": "total reviews",
-            "number": "166",
-            "icon": "hotel_class",
-            "trend": "trending_up",
-            "percent": "+ 45%",
-            "compare": "last month",
-            "dotsMenu": {
-                "dots": "more_vert",
-                "dropdown": [
-                    { "icon": "history", "text": "last day" },
-                    { "icon": "history", "text": "last week" },
-                    { "icon": "history", "text": "last month" },
-                    { "icon": "history", "text": "last year" }
-                ]
-            }
         }
     ],
     "sales": {
-        "title": "total sales",
+        "title": "total de vendas",
         "amount": "$3,787,681.00",
         "percent": "40.63%",
         "trendIcon": "trending_up",
@@ -259,107 +241,6 @@
             { "name": "cancelled", "value": 249, "color": "red", "icon": "cancel" },
             { "name": "refunded", "value": 176, "color": "yellow", "icon": "error" }
         ]
-    },
-    "clients":{
-        "title": "popular clients",
-        "dotsMenu": {
-            "dots": "more_horiz",
-            "dropdown": [
-                { "icon": "edit", "text": "edit" },
-                { "icon": "delete", "text": "delete" },
-                { "icon": "download", "text": "download" }
-            ]
-        },
-        "table": {
-            "thead": ["clients", "orders", "amount", "action"],
-            "tbody": [
-                {
-                    "id": "#4980",
-                    "src": "images/avatar/01.webp",
-                    "alt": "client",
-                    "name": "miron mahmud", 
-                    "order": "648",
-                    "amount": "$5500",
-                    "action": { "chat": "chat", "view": "visibility" }
-                },
-                {
-                    "id": "#4981",
-                    "src": "images/avatar/02.webp",
-                    "alt": "client",
-                    "name": "tahmina bonny", 
-                    "order": "590",
-                    "amount": "$4400",
-                    "action": { "chat": "chat", "view": "visibility" }
-                },
-                {
-                    "id": "#4982",
-                    "src": "images/avatar/03.webp",
-                    "alt": "client",
-                    "name": "labonno khan", 
-                    "order": "408",
-                    "amount": "$3300",
-                    "action": { "chat": "chat", "view": "visibility" }
-                },
-                {
-                    "id": "#4983",
-                    "src": "images/avatar/04.webp",
-                    "alt": "client",
-                    "name": "sheikh adabali", 
-                    "order": "357",
-                    "amount": "$2200",
-                    "action": { "chat": "chat", "view": "visibility" }
-                },
-                {
-                    "id": "#4984",
-                    "src": "images/avatar/05.webp",
-                    "alt": "client",
-                    "name": "johara khatun", 
-                    "order": "289",
-                    "amount": "$1100",
-                    "action": { "chat": "chat", "view": "visibility" }
-                },
-                {
-                    "id": "#4985",
-                    "src": "images/avatar/06.webp",
-                    "alt": "client",
-                    "name": "kurulus osman", 
-                    "order": "194",
-                    "amount": "$789",
-                    "action": { "chat": "chat", "view": "visibility" }
-                }
-            ]
-        }
-    },
-    "activity": {
-        "title": "recent activities",
-        "dotsMenu": {
-            "dots": "more_horiz",
-            "dropdown": [
-                { "icon": "edit", "text": "edit" },
-                { "icon": "delete", "text": "delete" },
-                { "icon": "download", "text": "download" }
-            ]
-        },
-        "items": [
-            { 
-                "title": "Your account is logged in",
-                "time": "45 min ago",
-                "text": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem quam pede lobortis ligula, sit amet eleifend.",
-                "media": { "src": "images/avatar/01.webp", "alt": "avatar", "name": "miron mahmud" }
-            },
-            { 
-                "title": "Current language has been changed",
-                "time": "24 hr ago",
-                "text": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem quam pede lobortis ligula, sit amet eleifend.",
-                "media": { "src": "images/flag/bangladesh.webp", "alt": "flag", "name": "bengali language" }
-            },
-            { 
-                "title": "Asked about this product",
-                "time": "Yesterday",
-                "text": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem quam pede lobortis ligula, sit amet eleifend.",
-                "media": { "src": "images/product/01.webp", "alt": "product", "name": "Modern tiny red skirt" },
-                "button": { "path": "#", "label": "go there" }
-            }
-        ]
     }
-}
+
+    }

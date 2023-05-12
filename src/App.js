@@ -31,7 +31,6 @@ export default function App() {
                         <Route path="/order-list" element={<OrderList />} />
                         <Route path="/message" element={<Message />} />
                         <Route path="/notification" element={<Notification />} />
-                        <Route path="/settings" element={<Settings />} />
                         <Route path="/blank-page" element={<BlankPage />} />
 
                         {/* Blocks Pages */} 
@@ -44,7 +43,7 @@ export default function App() {
                         <Route path="/fields" element={<Fields />} />
                         <Route path="/alerts" element={<Alerts />} />
 
-                        {/* Supports Pages */}
+                        {/* Supports Pages */}  
                         <Route path="*" element={<Error />} />
                         <Route path="/" element={<Overview />} />
                         <Route path="/documentation" element={<Documentation />} />

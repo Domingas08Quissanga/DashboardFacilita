@@ -1,27 +1,27 @@
 {
     "logo": {
-        "path": "/ecommerce",
-        "src": "images/logo.webp",
+        "path": "",
+        "src": "images/logo.png",
         "alt": "blue",
-        "name": "hotash"
+        "name": "Facilita"
     },
     "pattern": { 
         "src": "images/pattern.webp", 
         "alt": "line-pattern" 
     },
-    "title": "Reset the Password",
+    "title": "Redefinir a senha",
     "input": [
         { 
             "icon": "email", 
             "type": "email", 
-            "placeholder": "Enter your email",
+            "placeholder": "E-mail",
             "fieldSize": "h-sm"
         }
     ],
-    "button": { "type": "button", "text": "get link", "fieldSize": "h-sm" },
+    "button": { "type": "button", "text": "obter link", "fieldSize": "h-sm" },
     "navigate": {
-        "title": "Remember the password?",
+        "title": "Lembre-se da senha?",
         "path": "/login",
-        "text": "login"
+        "text": "Conecte-se"
     }
 }

@@ -29,13 +29,13 @@
             "variant": { "name": "purple", "color": "#f3a0ff" },
             "dataKey": "uv",
             "dataSet": [
-                { "name": "fri", "uv": 4000 },
-                { "name": "sat", "uv": 3000 },
-                { "name": "sun", "uv": 5000 },
-                { "name": "mon", "uv": 2780 },
-                { "name": "tue", "uv": 1890 },
-                { "name": "wen", "uv": 2390 },
-                { "name": "thu", "uv": 3490 }
+                { "name": "sex", "uv": 4000 },
+                { "name": "sáb", "uv": 3000 },
+                { "name": "dom", "uv": 5000 },
+                { "name": "seg", "uv": 2780 },
+                { "name": "ter", "uv": 1890 },
+                { "name": "qua", "uv": 2390 },
+                { "name": "qui+", "uv": 3490 }
             ]
         },
         {

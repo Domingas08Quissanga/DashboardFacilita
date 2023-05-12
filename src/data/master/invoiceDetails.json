@@ -1,92 +1,73 @@
 {
-    "pageTitle": "invoice details",
+    "pageTitle": "detalhes da fatura",
     "breadcrumb": [
         { "path": "/", "text": "home" },
-        { "text": "invoice" },
-        { "text": "details" }
+        { "text": "fatura" },
+        { "text": "detalhes" }
     ],
     "dotsMenu": {
         "dots": "more_horiz",
         "dropdown": [
-            { "icon": "edit", "text": "edit" },
-            { "icon": "delete", "text": "delete" },
+            { "icon": "edit", "text": "editar" },
+            { "icon": "delete", "text": "excluir" },
             { "icon": "download", "text": "download" }
         ]
     },
     "logo": {
         "path": "#",
-        "src": "images/logo.webp",
+        "src": "images/logo.png",
         "alt": "logo",
         "name": "hotash"
     },
-    "title": "invoice #985466",
-    "recieved": { "title": "order recieved", "text": "Office 25/B, Road 30, West jalkuri, Fatullah, Narayanganj 1265. +8801838288389, support@miron.com" },
-    "shipment": { "title": "shipment details", "text": "House 17/A, Road 09, West jalkuri, Fatullah, Narayanganj 1265. +8801838288389, support@miron.com" },
+    "title": "fatura #985466",
+    "recieved": { "title": "Pedido Recebido", "text": "-------------" },
+    "shipment": { "title": "detalhes da remessa", "text": "---------" },
     "table": {
-        "thead": ["uid", "product", "price", "discount", "quantity", "Amount"],
+        "thead": ["id", "produto", "preço", "desconto", "quantidade", "Valor"],
         "tbody": [
             { 
                 "id": "#5768", 
                 "name": "modern summer short",
-                "src": "images/product/01.webp", 
+                "src": "images/product/01.jpg", 
                 "alt": "product",
-                "price": "$20", 
+                "price": "20 AOA", 
                 "discount": "20%", 
                 "quantity": "03", 
-                "amount": "$15" 
+                "amount": "15 AOA" 
             },
             { 
                 "id": "#6489", 
                 "name": "stylish official suites", 
-                "src": "images/product/02.webp", 
+                "src": "images/product/02.jpg", 
                 "alt": "product",
-                "price": "$129", 
+                "price": "129C AOA", 
                 "discount": "10%", 
                 "quantity": "01", 
-                "amount": "$120" 
+                "amount": "120 AOA" 
             },
             { 
                 "id": "#2086", 
                 "name": "party footware grooming",
-                "src": "images/product/03.webp", 
+                "src": "images/product/03.jpg", 
                 "alt": "product", 
-                "price": "$84", 
+                "price": "84 AOA", 
                 "discount": "25%", 
                 "quantity": "02", 
-                "amount": "$64" 
-            },
-            { 
-                "id": "#9834", 
-                "name": "wedding red bubble dress", 
-                "src": "images/product/04.webp", 
-                "alt": "product",
-                "price": "$405", 
-                "discount": "08%", 
-                "quantity": "01", 
-                "amount": "$308" 
-            },
-            { 
-                "id": "#3908", 
-                "name": "children take care pack", 
-                "src": "images/product/05.webp", 
-                "alt": "product",
-                "price": "$370", 
-                "discount": "15%", 
-                "quantity": "04", 
-                "amount": "$270" 
+                "amount": "64 AOA" 
             }
+
         ]
     },
     "list": [
-        { "title": "subtotal", "digit": "$2,749.00" },
-        { "title": "discount", "digit": "$134.00" },
-        { "title": "shipping", "digit": "$60.00" },
-        { "title": "total", "digit": "$2,878.00", "addClass": "total" },
+        { "title": "subtotal", "digit": "2,749.00 AOA" },
+        { "title": "desconto", "digit": "134.00 AOA" },
+        { "title": "envio", "digit": "60.00 AOA" },
+        { "title": "total", "digit": "2,878.00 AOA", "addClass": "total" },
         { "title": "status", "status": "cod", "variant": "purple" }
     ],
-    "note": "Thank you for ordering greeny. We offer a 7-day return policy on all products. If you have any complain about this order, please call or email us. (VAT has been calculated as per GO 02/Mushak/2019). This is a sytem generated invoice and no signature or seal is required.",
+    "note": "Obrigado por fazer o pedido no Facilita. Se você tiver alguma reclamação sobre este pedido, ligue ou envie um e-mail. (O IVA foi calculado conforme GO 02/Mushak/2019). Esta é uma fatura gerada pelo sistema e nenhuma assinatura ou selo é necessário.",
     "button": [
-        { "classes": "btn btn-dark", "path": "#", "icon": "print", "text": "print this reciept" },
-        { "classes": "btn btn-success", "path": "#", "icon": "download", "text": "download as pdf" }
+        { "classes": "btn btn-dark", "path": "#", "icon": "print", "text": "imprimir este recibo" },
+        { "classes": "btn btn-success", "path": "#", "icon": "download", "text": "baixar como pdf" }
     ]
 }

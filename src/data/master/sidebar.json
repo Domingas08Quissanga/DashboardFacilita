@@ -1,152 +1,114 @@
 {
     "navs": [
         {
-            "title": "master",
             "menu": [
-                { 
-                    "icon": "dashboard", 
-                    "text": "dashboard",
+                {
+                    "icon": "dashboard",
+                    "text": "painel",
                     "submenu": [
-                        { "href": "/ecommerce", "text": "ecommerce" },
-                        { "href": "/analytics", "text": "analytics" },
-                        { "href": "/crm", "text": "CRM" }
+                        {
+                            "href": "/ecommerce",
+                            "text": "Início"
+                        },
+                        {
+                            "href": "/analytics",
+                            "text": "Análises"
+                        },
+                        {
+                            "href": "/crm",
+                            "text": "CRM"
+                        }
                     ]
                 },
-                { 
-                    "icon": "lock", 
-                    "text": "authentication",
+                {
+                    "icon": "lock",
+                    "text": "autenticação",
                     "submenu": [
-                        { "href": "/login", "text": "login" },
-                        { "href": "/register", "text": "registration" },
-                        { "href": "/forgot-password", "text": "forgot password" }
+                        {
+                            "href": "/login",
+                            "text": "login"
+                        },
+                        {
+                            "href": "/register",
+                            "text": "Criar conta"
+                        },
+                        {
+                            "href": "/forgot-password",
+                            "text": "Esqueceu a palvra passe"
+                        }
                     ]
                 },
-                { 
-                    "icon": "account_circle", 
-                    "text": "users", 
-                    "badge": { "text": "hot", "variant": "red square" },
+                {
+                    "icon": "account_circle",
+                    "text": "usuários",
                     "submenu": [
-                        { "href": "/user-list", "text": "user list" },
-                        { "href": "/user-profile", "text": "user profile" },
-                        { "href": "/my-account", "text": "my account" }
+                        {
+                            "href": "/user-list",
+                            "text": "lista de usuários"
+                        },
+                        {
+                            "href": "/user-profile",
+                            "text": "perfil de usuário"
+                        },
+                        {
+                            "href": "/my-account",
+                            "text": "minha conta"
+                        }
                     ]
                 },
-                { 
-                    "icon": "pix", 
-                    "text": "products",
-                    "badge": { "text": "new", "variant": "purple square" },
+                {
+                    "icon": "pix",
+                    "text": "produtos",
+                    "badge": {
+                        "text": "novos",
+                        "variant": "purple square"
+                    },
                     "submenu": [
-                        { "href": "/product-list", "text": "product list" },
-                        { "href": "/product-view", "text": "product view" },
-                        { "href": "/product-upload", "text": "product upload" }
+                        {
+                            "href": "/product-list",
+                            "text": "lista de produtos"
+                        },
+                        {
+                            "href": "/product-view",
+                            "text": "visão do produto"
+                        },
+                        {
+                            "href": "/product-upload",
+                            "text": "upload do produto"
+                        }
                     ]
                 },
-                { 
+                {
                     "href": "#",
-                    "icon": "article", 
-                    "text": "invoices",
+                    "icon": "article",
+                    "text": "faturas",
                     "submenu": [
-                        { "href": "/invoice-list", "text": "invoice list" },
-                        { "href": "/invoice-details", "text": "invoice details" }
+                        {
+                            "href": "/invoice-list",
+                            "text": "Lista de facturas"
+                        },
+                        {
+                            "href": "/invoice-details",
+                            "text": "detalhes da fatura"
+                        }
                     ]
                 },
-                { 
+                {
                     "href": "/order-list",
-                    "icon": "shopping_cart", 
-                    "text": "orders",
-                    "badge": { "text": "05", "variant": "primary round" }
-                },
-                { 
-                    "href": "/message",
-                    "icon": "email", 
-                    "text": "messages",
-                    "badge": { "text": "03", "variant": "primary round" }
-                },
-                { 
-                    "href": "/notification",
-                    "icon": "notifications", 
-                    "text": "notifications",
-                    "badge": { "text": "9+", "variant": "primary round" }
-                },
-                { 
-                    "href": "/settings",
-                    "icon": "settings", 
-                    "text": "settings" 
-                },
-                { 
-                    "href": "/blank-page",
-                    "icon": "class", 
-                    "text": "blank page" 
-                }
-            ]
-        },
-        {
-            "title": "blocks",
-            "menu": [
-                { 
-                    "href": "/alerts",
-                    "icon": "report", 
-                    "text": "alerts"
-                },
-                { 
-                    "href": "/avatars",
-                    "icon": "collections", 
-                    "text": "avatars"
-                },
-                {
-                    "href": "/headings",
-                    "icon": "text_fields", 
-                    "text": "headings"
-                },
-                { 
-                    "href": "/buttons",
-                    "icon": "mouse", 
-                    "text": "buttons"
-                },
-                { 
-                    "href": "/colors",
-                    "icon": "palette", 
-                    "text": "colors"
-                },
-                { 
-                    "href": "/charts",
-                    "icon": "donut_small", 
-                    "text": "charts"
-                },
-                {
-                    "href": "/fields",
-                    "icon": "feed", 
-                    "text": "fields"
-                },
-                { 
-                    "href": "/tables",
-                    "icon": "grid_on", 
-                    "text": "tables"
-                }
-            ]
-        },
-        {
-            "title": "supports",
-            "menu": [
-                {
-                    "href": "/",
-                    "icon": "streetview",
-                    "text": "overview"
-                },
-                { 
-                    "href": "/documentation",
-                    "icon": "menu_book", 
-                    "text": "Documentation"
-                },
-                { 
-                    "href": "/changelog",
-                    "icon": "layers", 
-                    "text": "change log",
-                    "badge": { "text": "v1.0", "variant": "primary square" }
+                    "icon": "shopping_cart",
+                    "text": "Pedidos",
+                    "badge": {
+                        "text": "05",
+                        "variant": "primary round"
+                    }
                 }
             ]
         }
     ],
-    "button": { "icon": "lock", "path": "/login", "text": "logout" }
-
+    
+    "button": {
+        "icon": "lock",
+        "path": "/login",
+        "text": "Sair"
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "pageTitle": "invoice list",
+    "pageTitle": "lista de faturas",
     "breadcrumb": [
         { "path": "/", "text": "home" },
         { "text": "invoice" },
@@ -8,28 +8,28 @@
     "dotsMenu": {
         "dots": "more_horiz",
         "dropdown": [
-            { "icon": "edit", "text": "edit" },
-            { "icon": "delete", "text": "delete" },
+            { "icon": "edit", "text": "editar" },
+            { "icon": "delete", "text": "excluir" },
             { "icon": "download", "text": "download" }
         ]
     },
     "float": [
-        { "title": "recieved amount", "digit": "$78,593.00", "icon": "account_balance", "variant": "lg green" },
-        { "title": "drafts amount", "digit": "$24,950.00", "icon": "drafts", "variant": "lg blue" },
-        { "title": "pending amount", "digit": "$53,617.00", "icon": "pending", "variant": "lg purple" } 
+        { "title": "valor recebido", "digit": "$78,593.00", "icon": "account_balance", "variant": "lg green" },
+        { "title": "quantidade de rascunhos", "digit": "$24,950.00", "icon": "drafts", "variant": "lg blue" },
+        { "title": "valor pendente", "digit": "$53,617.00", "icon": "pending", "variant": "lg purple" } 
     ],
     "filter":[
-        { "label": "show by", "option": ["12 row", "24 row", "36 row"] },
-        { "label": "status by", "option": ["recieved", "drafts", "pending"] },
-        { "label": "issued by", "type": "date" },
-        { "label": "search by", "type": "search", "placeholder": "id / name / email" }
+        { "label": "mostrar por", "option": ["12 row", "24 row", "36 row"] },
+        { "label": "estado por", "option": ["recieved", "drafts", "pending"] },
+        { "label": "emitida pela", "type": "date" },
+        { "label": "procurar por", "type": "search", "placeholder": "id / name / email" }
     ],
     "table":{
-        "thead": ["client", "email", "amount", "status", "issue date", "action"],
+        "thead": ["cliente", "email", "quantia", "status", "data de emissão", "ação"],
         "tbody": [
             {
                 "id": "#4980",
-                "src": "images/avatar/01.webp",
+                "src": "images/avatar/09.jpg",
                 "alt": "client",
                 "name": "miron mahmud", 
                 "email": "miron@gmail.com", 

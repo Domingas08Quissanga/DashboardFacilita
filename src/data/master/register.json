@@ -1,68 +1,85 @@
 {
     "logo": {
         "path": "/ecommerce",
-        "src": "images/logo.webp",
-        "alt": "blue",
-        "name": "hotash"
+        "src": "/images/logo.png",
+        "alt": "facilita",
+        "name": "facilita"
     },
     "pattern": { 
         "src": "images/pattern.webp", 
         "alt": "line-pattern" 
     },
+    
     "title": {
-        "banner": "Best ux/ui fashion ecommerce dashboard & admin panel",
-        "from": "Register a new account"
+        "banner": "Facilita",
+        "from": "Crie sua Conta"
     },
-    "descrip": "Elit Iusto dolore libero recusandae dolor dolores explicabo ullam cum facilis aperiam   alias odio quam excepturi molestiae omnis inventore. Repudiandae officia placeat amet consectetur dicta dolorem quo",
-    "anchor": { "icon": "home", "text": "Back to Home", "path": "/ecommerce" },
+    "title": {
+        "banner": "Transforme a sua vida e a sua saúde com alimentos frescos e nutritivos.",
+        "from": "Crie sua Conta"
+    },
+    "descrip": "Junte-se a nós e descubra a alegria de escolher o melhor para o seu corpo todos os dias!",
+    "anchor": { "icon": "home", "text": "Voltar ao Início", "path": "/ecommerce" },
     "input": [
         { 
             "icon": "account_circle", 
             "type": "text", 
-            "placeholder": "Enter your name",
+            "placeholder": "Primeiro nome",
+            "fieldSize": "h-sm"
+        },    
+        { 
+            "icon": "account_circle", 
+            "type": "text", 
+            "placeholder": "Sobrenome",
+            "fieldSize": "h-sm"
+        },
+         { 
+            "icon": "phone", 
+            "type": "text", 
+            "placeholder": "Contacto",
             "fieldSize": "h-sm"
         },
         { 
             "icon": "email", 
             "type": "email", 
-            "placeholder": "Enter your email",
+            "placeholder": "E-mail",
             "fieldSize": "h-sm"
         },
         { 
             "icon": "lock", 
             "type": "password", 
-            "placeholder": "Enter your password",
+            "placeholder": "Palavra-passe",
             "fieldSize": "h-sm",
             "passwordVisible" : true
         },
         { 
             "icon": "verified_user", 
             "type": "password", 
-            "placeholder": "Enter repeat password",
+            "placeholder": "Repita a palavra-passe",
             "fieldSize": "h-sm",
             "passwordVisible" : true
         }
     ],
-    "checkLabel": "I agree to the all Terms & Condiotions",
-    "button": { "type": "button", "text": "sign up", "fieldSize": "h-sm" },
-    "divide": { "text": "or" },
+    "checkLabel": "Eu concordo com todos os Termos e Condições",
+    "button": { "type": "button", "text": "inscrever-se", "fieldSize": "h-sm" },
+    "divide": { "text": "ou" },
     "connect": [
         { 
             "path": "#", 
             "classes": "twitter h-sm", 
             "icon": "icofont-twitter", 
-            "text": "Continue with Twitter" 
+            "text": "Continuar com Twitter" 
         },
         { 
             "path": "#", 
             "classes": "facebook h-sm", 
             "icon": "icofont-facebook", 
-            "text": "Continue with Facebook" 
+            "text": "Continuar com Facebook" 
         }
     ],
     "navigate": {
-        "title": "Already have an account?",
+        "title": "Já tem uma conta?",
         "path": "/login",
-        "text": "login"
+        "text": "entrar"
     }
 }

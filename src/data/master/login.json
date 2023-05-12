@@ -1,55 +1,50 @@
 {
     "logo": {
-        "path": "/ecommerce",
-        "src": "images/logo.webp",
-        "alt": "blue",
-        "name": "hotash"
+        "path": "",
+        "src": "/images/logo.png",
+        "alt": "facilita",
+        "name": "facilita"
     },
     "pattern": { 
         "src": "images/pattern.webp", 
         "alt": "line-pattern" 
     },
-    "title": "Login to Hotash",
+    "title": "Iniciar Sessão",
     "input": [
         { 
             "icon": "email", 
             "type": "email", 
-            "placeholder": "Enter your email",
+            "placeholder": "Insira o seu E-mail",
             "fieldSize": "w-100 h-sm"
         },
         { 
             "icon": "lock", 
             "type": "password", 
-            "placeholder": "Enter your password",
+            "placeholder": "Introduza a palvra-passe",
             "fieldSize": "w-100 h-sm",
             "passwordVisible" : true
-        },
-        {
-            "icon": "verified_user",
-            "fieldSize": "w-100 h-sm",
-            "option": ["select user role", "admin", "member", "client", "manager", "vendor"]
         }
     ],
-    "button": { "type": "button", "text": "sign in", "fieldSize": "h-sm" },
-    "forgot": { "path": "/forgot-password", "text": "forgot password?" },
-    "divide": { "text": "or" },
+    "button": { "type": "button", "text": "entrar", "fieldSize": "h-sm", "path":"" },
+    "forgot": { "path": "/forgot-password", "text": "Esqueceu a palavra passa?" },
+    "divide": { "text": "ou" },
     "connect": [
         { 
             "path": "#", 
-            "classes": "twitter h-sm", 
+            "classes": " twitter h-sm", 
             "icon": "icofont-twitter", 
-            "text": "Continue with Twitter" 
+            "text": "Entrar com twitter" 
         },
         { 
             "path": "#", 
             "classes": "facebook h-sm", 
             "icon": "icofont-facebook", 
-            "text": "Continue with Facebook" 
+            "text": "Entrar com Facebook" 
         }
     ],
     "navigate": {
-        "title": "Don't have an account?",
+        "title": "Ainda não tem uma conta?",
         "path": "/register",
-        "text": "register"
+        "text": "Resgistrar"
     }
 }

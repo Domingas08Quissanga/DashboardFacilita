@@ -72,20 +72,7 @@ export default function Ecommerce() {
                         items={data?.orders.items}
                     />
                 </Col>
-                <Col xl={6}>
-                    <ClientsCard
-                        title={data?.clients.title}
-                        dotsMenu={data?.clients.dotsMenu}
-                        table={data?.clients.table}
-                    />
-                </Col>
-                <Col xl={6}>
-                    <ActivityCard
-                        title={data?.activity.title}
-                        dotsMenu={data?.activity.dotsMenu}
-                        items={data?.activity.items}
-                    />
-                </Col>
+             
             </Row>
         </PageLayout>
     );
