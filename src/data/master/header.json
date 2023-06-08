@@ -1,149 +1,153 @@
 {
-    "logo": {
-        "path": "/ecommerce",
-        "src": "images/logo.png",
-        "alt": "",
-        "name": "Facilita"
-    },
-    "toggle": { 
-        "open": "menu_open", 
-        "close": "menu" 
-    },
-    "search":{
-        "icon": "search",
-        "placeholder": "Localização rápida..." 
-    },
-    "theme": {
-        "icon": { "light": "light_mode", "dark": "dark_mode" },
-        "title": "Theme Mode",
-        "addClass": "theme"
-    },
-    "cart": {
-        "icon": "shopping_cart", 
-        "title": "Shopping",  
-        "addClass": "cart",   
-        "badge": { "text": "02", "variant": "primary" },
-        "dropdown": {
-            "title": "Pedidos",
-            "dotsMenu": {
-                "dots": "settings",
-                "dropdown": [
-                    { "icon": "drafts", "text": "marcar tudo como lido" },
-                    { "icon": "markunread", "text": "marcar tudo como não lido" },
-                    { "icon": "delete", "text": "excluir todos os pedidos" }
-                ]
-            },
-            "button": { 
-                "path": "/order-list", 
-                "label": "ver todos os pedidos" 
-            },
-            "items": [
-                {
-                    "path": "#",
-                    "product": {
-                        "images": ["images/product/04.webp", "images/product/02.webp"],
-                        "count": "+3"
-                    },
-                    "name": "rabeya akter",
-                    "price": "$190",
-                    "shortMoment": "2m",
-                    "more": {
-                        "icon": "more_vert",
-                        "menu": [
-                            { "icon": "account_circle", "text": "ver perfil" },
-                            { "icon": "mark_chat_read", "text": "marcar como não lido" },
-                            { "icon": "delete", "text": "excluir pedido" },
-                            { "icon": "remove_circle", "text": "block order" }
-                        ]
-                    }
-                },
-                {
-                    "path": "#",
-                    "product": {
-                        "images": ["images/product/06.webp", "images/product/01.webp"],
-                        "count": "+1"
-                    },
-                    "name": "tanvir ahmed",
-                    "price": "$87",
-                    "shortMoment": "1y",
-                    "more": {
-                        "icon": "more_vert",
-                        "menu": [
-                            { "icon": "account_circle", "text": "ver perfil" },
-                            { "icon": "mark_chat_read", "text": "marcar como não lido" },
-                            { "icon": "delete", "text": "excluir pedido" },
-                            { "icon": "remove_circle", "text": "block order" }
-                        ]
-                    }
-                }
-            ]
-        }
-    },
-    "message": {
-        "icon": "email", 
-        "title": "Message",  
-        "addClass": "message",   
-        "badge": { "text": "03", "variant": "primary" },
-        "dropdown": {
-            "title": "Messages",
-            "dotsMenu": {
-                "dots": "settings",
-                "dropdown": [
-                    { "icon": "drafts", "text": "mark all as read" },
-                    { "icon": "markunread", "text": "mark all as unread" },
-                    { "icon": "delete", "text": "delete all message" }
-                ]
-            },
-            "button": { 
-                "path": "/message", 
-                "label": "ver todas as mensagens" 
-            },
-            "items": [
-                {
-                    "user": { "image": "images/avatar/10.jpg", "status": "online" },
-                    "name": "Marcio Fernandes",
-                    "chat":"",
-                    "addClass": "active",
-                    "shortMoment": "now",
-                    "badge": "03",
-                    "more": {
-                        "icon": "more_vert",
-                        "menu": [
-                            { "icon": "account_circle", "text": "view profile" },
-                            { "icon": "mark_chat_read", "text": "mark as unread" },
-                            { "icon": "delete", "text": "delete message" },
-                            { "icon": "remove_circle", "text": "block message" }
-                        ]
-                    }
-                },
-                {
-                    "user": { "image": "images/avatar/08.jpg" },
-                    "chat": "",
-                    "name": "josana Silva",
-                    "addClass": "active",
-                    "shortMoment": "24s",
-                    "badge": "01",
-                    "more": {
-                        "icon": "more_vert",
-                        "menu": [
-                            { "icon": "account_circle", "text": "view profile" },
-                            { "icon": "mark_chat_read", "text": "mark as unread" },
-                            { "icon": "delete", "text": "delete message" },
-                            { "icon": "remove_circle", "text": "block message" }
-                        ]
-                    }
-                }
-            ]
-        }
-    },
-    "profile": {
-        "name": "Bernabe David",
-        "username": "Bernabedavid12@gmail.com",
-        "image":"images/avatar/09.jpg",
+  "logo": {
+    "path": "/ecommerce",
+    "src": "images/logo.png",
+    "alt": "",
+    "name": "Facilita"
+  },
+  "toggle": {
+    "open": "menu_open",
+    "close": "menu"
+  },
+  "search": {
+    "icon": "search",
+    "placeholder": "Localização rápida..."
+  },
+  "theme": {
+    "icon": { "light": "light_mode", "dark": "dark_mode" },
+    "title": "Theme Mode",
+    "addClass": "theme"
+  },
+  "cart": {
+    "icon": "shopping_cart",
+    "title": "Shopping",
+    "addClass": "cart",
+    "badge": { "text": "02", "variant": "primary" },
+    "dropdown": {
+      "title": "Pedidos",
+      "dotsMenu": {
+        "dots": "settings",
         "dropdown": [
-            { "path": "/my-account", "icon": "person", "text": "minha conta" },
-            { "path": "/forgot-password", "icon": "privacy_tip", "text": "redefinir senha" },
-            { "path": "/login", "icon": "lock", "text": "sair" }
+          { "icon": "drafts", "text": "marcar tudo como lido" },
+          { "icon": "markunread", "text": "marcar tudo como não lido" },
+          { "icon": "delete", "text": "excluir todos os pedidos" }
         ]
+      },
+      "button": {
+        "path": "/order-list",
+        "label": "ver todos os pedidos"
+      },
+      "items": [
+        {
+          "path": "#",
+          "product": {
+            "images": ["images/product/04.webp", "images/product/02.webp"],
+            "count": "+3"
+          },
+          "name": "rabeya akter",
+          "price": "$190",
+          "shortMoment": "2m",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "ver perfil" },
+              { "icon": "mark_chat_read", "text": "marcar como não lido" },
+              { "icon": "delete", "text": "excluir pedido" },
+              { "icon": "remove_circle", "text": "block order" }
+            ]
+          }
+        },
+        {
+          "path": "#",
+          "product": {
+            "images": ["images/product/06.webp", "images/product/01.webp"],
+            "count": "+1"
+          },
+          "name": "tanvir ahmed",
+          "price": "$87",
+          "shortMoment": "1y",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "ver perfil" },
+              { "icon": "mark_chat_read", "text": "marcar como não lido" },
+              { "icon": "delete", "text": "excluir pedido" },
+              { "icon": "remove_circle", "text": "block order" }
+            ]
+          }
+        }
+      ]
     }
+  },
+  "message": {
+    "icon": "email",
+    "title": "Message",
+    "addClass": "message",
+    "badge": { "text": "03", "variant": "primary" },
+    "dropdown": {
+      "title": "Messages",
+      "dotsMenu": {
+        "dots": "settings",
+        "dropdown": [
+          { "icon": "drafts", "text": "mark all as read" },
+          { "icon": "markunread", "text": "mark all as unread" },
+          { "icon": "delete", "text": "delete all message" }
+        ]
+      },
+      "button": {
+        "path": "/message",
+        "label": "ver todas as mensagens"
+      },
+      "items": [
+        {
+          "user": { "image": "images/avatar/10.jpg", "status": "online" },
+          "name": "Marcio Fernandes",
+          "chat": "",
+          "addClass": "active",
+          "shortMoment": "now",
+          "badge": "03",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        },
+        {
+          "user": { "image": "images/avatar/08.jpg" },
+          "chat": "",
+          "name": "josana Silva",
+          "addClass": "active",
+          "shortMoment": "24s",
+          "badge": "01",
+          "more": {
+            "icon": "more_vert",
+            "menu": [
+              { "icon": "account_circle", "text": "view profile" },
+              { "icon": "mark_chat_read", "text": "mark as unread" },
+              { "icon": "delete", "text": "delete message" },
+              { "icon": "remove_circle", "text": "block message" }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "profile": {
+    "name": "Bernabe David",
+    "username": "Bernabedavid12@gmail.com",
+    "image": "images/avatar/09.jpg",
+    "dropdown": [
+      { "path": "/my-account", "icon": "person", "text": "minha conta" },
+      {
+        "path": "/forgot-password",
+        "icon": "privacy_tip",
+        "text": "redefinir senha"
+      },
+      { "path": "/login", "icon": "lock", "text": "sair" }
+    ]
+  }
 }

@@ -5,8 +5,10 @@ import PageLayout from "../../layouts/PageLayout";
 import data from "../../data/master/ecommerce.json";
 import { Box, Item, Anchor } from "../../components/elements";
 import { EcommerceCard, SalesCard, ProductsCard, RevenueCard, ClientsCard, ActivityCard, OrdersCard } from "../../components/cards";
+import { useFetch } from "../../components/hooks/useFetch";
 
 export default function Ecommerce() {
+
     return (
         <PageLayout>
             <Row>
@@ -72,7 +74,7 @@ export default function Ecommerce() {
                         items={data?.orders.items}
                     />
                 </Col>
-             
+
             </Row>
         </PageLayout>
     );

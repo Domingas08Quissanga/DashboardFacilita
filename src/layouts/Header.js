@@ -5,6 +5,8 @@ import { DrawerContext } from '../context/Drawer';
 import { ThemeContext } from '../context/Themes';
 import { Logo } from '../components';
 import data from "../data/master/header.json";
+import { getUserInfo } from '../services/config';
+import { useFetch } from '../components/hooks/useFetch';
 
 export default function Header() {
 
@@ -13,6 +15,15 @@ export default function Header() {
     const searchRef = useRef();
     const [scroll, setScroll] = useState("fixed");
     const [search, setSearch] = useState("");
+
+    const user = getUserInfo()
+
+    const { data: Clientes } = useFetch("/cliente")
+
+    const userLogged = Clientes?.data?.find((item => item?.id_cliente === user?.sub))
+
+
+
 
     window.addEventListener('scroll', () => {
         if (window.pageYOffset > 0) setScroll("sticky");
@@ -26,59 +37,60 @@ export default function Header() {
     })
 
     return (
-        <Section as="header" className={`mc-header ${ scroll }`}>
-            <Logo 
-                src = { data?.logo.src }
-                alt = { data?.logo.alt }
-                name = { data?.logo.name }
-                href = { data?.logo.path } 
+        <Section as="header" className={`mc-header ${scroll}`}>
+            <Logo
+                src={data?.logo.src}
+                alt={data?.logo.alt}
+                name={data?.logo.name}
+                href={data?.logo.path}
             />
             <Box className="mc-header-group">
                 <Box className="mc-header-left">
-                    <Button 
-                        icon={ data?.search.icon } 
-                        className="mc-header-icon search" 
-                        onClick={()=> setSearch("show")}
+                    <Button
+                        icon={data?.search.icon}
+                        className="mc-header-icon search"
+                        onClick={() => setSearch("show")}
                     />
-                    <Button 
-                        icon={ drawer ? "menu_open" : "menu" } 
-                        className="mc-header-icon toggle" 
-                        onClick={ toggleDrawer } 
+                    <Button
+                        icon={drawer ? "menu_open" : "menu"}
+                        className="mc-header-icon toggle"
+                        onClick={toggleDrawer}
                     />
-                    <Box className={`mc-header-search-group ${ search }`}>
-                        <form className="mc-header-search" ref={ searchRef }>
-                            <Button className="material-icons">{ data?.search.icon }</Button>
-                            <Input type="search" placeholder={ data?.search.placeholder } />
+                    <Box className={`mc-header-search-group ${search}`}>
+                        <form className="mc-header-search" ref={searchRef}>
+                            <Button className="material-icons">{data?.search.icon}</Button>
+                            <Input type="search" placeholder={data?.search.placeholder} />
                         </form>
                     </Box>
                 </Box>
                 <Box className="mc-header-right">
-                    <Button 
-                        icon={ theme }
-                        title={ data.theme.title }
-                        onClick={ toggleTheme }
-                        className={`mc-header-icon ${ data.theme.addClass }`}
+                    <Button
+                        icon={theme}
+                        title={data.theme.title}
+                        onClick={toggleTheme}
+                        className={`mc-header-icon ${data.theme.addClass}`}
                     />
-                    <WidgetDropdown 
-                        icon={ data.cart.icon }
-                        title={ data.cart.title }
-                        badge={ data.cart.badge }
-                        addClass={ data.cart.addClass }
-                        dropdown={ data.cart.dropdown }
+                    <WidgetDropdown
+                        icon={data.cart.icon}
+                        title={data.cart.title}
+                        badge={data.cart.badge}
+                        addClass={data.cart.addClass}
+                        dropdown={data.cart.dropdown}
                     />
-                    <WidgetDropdown 
-                        icon={ data.message.icon }
-                        title={ data.message.title }
-                        badge={ data.message.badge }
-                        addClass={ data.message.addClass }
-                        dropdown={ data.message.dropdown }
+                    <WidgetDropdown
+                        icon={data.message.icon}
+                        title={data.message.title}
+                        badge={data.message.badge}
+                        addClass={data.message.addClass}
+                        dropdown={data.message.dropdown}
                     />
-                
-                    <ProfileDropdown 
-                        name={ data.profile.name }
-                        image={ data.profile.image }
-                        username={ data.profile.username }
-                        dropdown={ data.profile.dropdown }
+
+                    <ProfileDropdown
+                        user={userLogged}
+                        name={data.profile.name}
+                        image={data.profile.image}
+                        username={data.profile.username}
+                        dropdown={data.profile.dropdown}
                     />
                 </Box>
             </Box>

@@ -1,85 +1,101 @@
 {
-    "logo": {
-        "path": "/ecommerce",
-        "src": "/images/logo.png",
-        "alt": "facilita",
-        "name": "facilita"
+  "logo": {
+    "path": "/ecommerce",
+    "src": "/images/logo.png",
+    "alt": "facilita",
+    "name": "facilita"
+  },
+  "pattern": {
+    "src": "images/pattern.webp",
+    "alt": "line-pattern"
+  },
+
+  "title": {
+    "banner": "Facilita",
+    "from": "Crie sua Conta"
+  },
+  "title": {
+    "banner": "Transforme a sua vida e a sua saúde com alimentos frescos e nutritivos.",
+    "from": "Crie sua Conta"
+  },
+  "descrip": "Junte-se a nós e descubra a alegria de escolher o melhor para o seu corpo todos os dias!",
+  "anchor": {
+    "icon": "home",
+    "text": "Voltar ao Início",
+    "path": "/ecommerce"
+  },
+  "input": [
+    {
+      "icon": "account_circle",
+      "type": "text",
+      "placeholder": "Primeiro nome",
+      "id": "nome",
+      "name": "nome",
+      "fieldSize": "h-sm"
     },
-    "pattern": { 
-        "src": "images/pattern.webp", 
-        "alt": "line-pattern" 
+    {
+      "icon": "account_circle",
+      "type": "text",
+      "id": "sobrenome",
+      "name": "sobrenome",
+      "placeholder": "Sobrenome",
+      "fieldSize": "h-sm"
     },
-    
-    "title": {
-        "banner": "Facilita",
-        "from": "Crie sua Conta"
+    {
+      "icon": "phone",
+      "type": "text",
+      "placeholder": "Contacto",
+      "id": "contacto",
+      "name": "contacto",
+      "fieldSize": "h-sm"
     },
-    "title": {
-        "banner": "Transforme a sua vida e a sua saúde com alimentos frescos e nutritivos.",
-        "from": "Crie sua Conta"
+    {
+      "icon": "email",
+      "type": "email",
+      "id": "email",
+      "name": "email",
+      "placeholder": "E-mail",
+      "fieldSize": "h-sm"
     },
-    "descrip": "Junte-se a nós e descubra a alegria de escolher o melhor para o seu corpo todos os dias!",
-    "anchor": { "icon": "home", "text": "Voltar ao Início", "path": "/ecommerce" },
-    "input": [
-        { 
-            "icon": "account_circle", 
-            "type": "text", 
-            "placeholder": "Primeiro nome",
-            "fieldSize": "h-sm"
-        },    
-        { 
-            "icon": "account_circle", 
-            "type": "text", 
-            "placeholder": "Sobrenome",
-            "fieldSize": "h-sm"
-        },
-         { 
-            "icon": "phone", 
-            "type": "text", 
-            "placeholder": "Contacto",
-            "fieldSize": "h-sm"
-        },
-        { 
-            "icon": "email", 
-            "type": "email", 
-            "placeholder": "E-mail",
-            "fieldSize": "h-sm"
-        },
-        { 
-            "icon": "lock", 
-            "type": "password", 
-            "placeholder": "Palavra-passe",
-            "fieldSize": "h-sm",
-            "passwordVisible" : true
-        },
-        { 
-            "icon": "verified_user", 
-            "type": "password", 
-            "placeholder": "Repita a palavra-passe",
-            "fieldSize": "h-sm",
-            "passwordVisible" : true
-        }
-    ],
-    "checkLabel": "Eu concordo com todos os Termos e Condições",
-    "button": { "type": "button", "text": "inscrever-se", "fieldSize": "h-sm" },
-    "divide": { "text": "ou" },
-    "connect": [
-        { 
-            "path": "#", 
-            "classes": "twitter h-sm", 
-            "icon": "icofont-twitter", 
-            "text": "Continuar com Twitter" 
-        },
-        { 
-            "path": "#", 
-            "classes": "facebook h-sm", 
-            "icon": "icofont-facebook", 
-            "text": "Continuar com Facebook" 
-        }
-    ],
-    "navigate": {
-        "title": "Já tem uma conta?",
-        "path": "/login",
-        "text": "entrar"
+    {
+      "icon": "lock",
+      "type": "password",
+      "id": "password",
+      "name": "password",
+      "placeholder": "Palavra-passe",
+      "fieldSize": "h-sm",
+      "passwordVisible": true
+    },
+    {
+      "icon": "verified_user",
+      "type": "password",
+      "id": "passwordConfirm",
+      "name": "passwordConfirm",
+      "placeholder": "Confirme a palavra-passe",
+      "fieldSize": "h-sm",
+      "passwordVisible": true
     }
+  ],
+  "checkLabel": "Eu concordo com todos os Termos e Condições",
+  "button": { "type": "submit", "text": "Cadastrar", "fieldSize": "h-sm" },
+  "divide": { "text": "ou" },
+  "connect": [
+    {
+      "path": "",
+      "classes": "",
+      "icon": "",
+      "text": ""
+    },
+    {
+      "path": "",
+      "classes": "",
+      "icon": "",
+      "text": ""
+    }
+  ],
+  "navigate": {
+    "title": "Já tem uma conta?",
+    "path": "/login",
+    "text": "entrar"
+  }
 }
